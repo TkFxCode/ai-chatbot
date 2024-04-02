@@ -37,7 +37,7 @@ export default async function IndexPage() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <img src="./ai.jpg" />
+            <img src="./AI.jpg" />
           </CardContent>
         </Card>
       </div>
