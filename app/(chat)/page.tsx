@@ -3,11 +3,11 @@ export default async function IndexPage() {
     <div className="relative">
       <header className="header">
         <nav className="navbar">
-          <a href="">Home</a>
-          <a href="">Login</a>
+          <a href="/">Home</a>
+          <a href="/login">Login</a>
           <a href="/chatbot">Chatbot</a>
-          <a href="">About</a>
-          <a href="">Contact me</a>
+          <a href="/about">About</a>
+          <a href="/contactme">Contact me</a>
         </nav>
       </header>
       {/* Background Image */}
