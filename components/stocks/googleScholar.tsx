@@ -1,11 +1,12 @@
 import { format, parseISO } from 'date-fns'
 
-interface Event {
+interface Scholar {
   headline: string
   description: string
+  url: string
 }
 
-export function Events({ props: events }: { props: Event[] }) {
+export function Scholar({ props: events }: { props: Scholar[] }) {
   return (
     <div className="-mt-2 flex w-full flex-col gap-2 py-4">
       {events.map(event => (
@@ -17,6 +18,7 @@ export function Events({ props: events }: { props: Event[] }) {
             {event.headline}
           </div>
           <div className="text-zinc-500">{event.description}</div>
+          <div className="text-zinc-500">{event.url}</div>
         </div>
       ))}
     </div>

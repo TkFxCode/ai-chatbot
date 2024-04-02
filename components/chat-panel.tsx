@@ -36,24 +36,25 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'Explain the concept of',
+      subheading: 'Quantum Computing',
+      message: `Can you explain the concept of Quantum Computing?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'Summarize the research on',
+      subheading: 'Climate Change in the last decade',
+      message:
+        'What are the key findings of climate change research in the last decade?'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'How do I write a',
+      subheading: 'thesis proposal?',
+      message: `I need help writing a thesis proposal.`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'Find studies related to',
+      subheading: `the impact of social media on mental health`,
+      message: `What studies have been conducted on the impact of social media on mental health?`
     }
   ]
 
