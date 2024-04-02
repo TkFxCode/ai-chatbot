@@ -38,7 +38,7 @@ const LoginFile = () => {
               <div className="logreg-link animation">
                 <p>
                   Dont have an account?{' '}
-                  <a href="a" className="register-link">
+                  <a href="/login" className="register-link">
                     Sign Up
                   </a>
                 </p>
