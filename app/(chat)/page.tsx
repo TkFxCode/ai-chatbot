@@ -21,9 +21,9 @@ export default async function IndexPage() {
 
       {/* Background Image */}
       <div className="fixed top-0 left-0 size-full z-[-1]">
-        <img src="./background.jpg" className="w-full h-full object-cover" />
+        <img src="./AI.jpg" className="w-full h-full object-cover" />
       </div>
-      <div className="flex flex-row items-center justify-center size-full ">
+      <div className="flex flex-row items-center justify-center size-full font-ariel ">
         <Card className=" shadow-2xl bg-transparent border-black">
           <CardHeader>
             <CardTitle className="text-4xl text-gray-300">Hey there!</CardTitle>
@@ -36,9 +36,6 @@ export default async function IndexPage() {
               best academic blogs on the web.
             </CardDescription>
           </CardHeader>
-          <CardContent>
-            <img src="./AI.jpg" />
-          </CardContent>
         </Card>
       </div>
     </div>
